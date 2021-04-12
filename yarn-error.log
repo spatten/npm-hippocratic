@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/scott/.nvm/versions/node/v8.11.1/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add @tdreyno/pii
+
+PATH: 
+  /Users/scott/perl5/bin:/Users/scott/.rbenv/shims:/Users/scott/.nvm/versions/node/v8.11.1/bin:/Users/scott/bin:/usr/local/sbin:/Users/scott/.cabal/bin:/Users/scott/Library/Python/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/scott/perl5/bin:/Users/scott/.cabal/bin:/Users/scott/.ghcup/bin:/Users/scott/.rbenv/shims:/Users/scott/.nvm/versions/node/v8.11.1/bin:/Users/scott/bin:/usr/local/sbin:/Users/scott/Library/Python/2.7/bin:/Users/scott/go/bin:/usr/local/opt/fzf/bin:/Users/scott/go/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  8.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/scott/fossa/license-scan-dirs/package.json: Unexpected token l in JSON at position 4
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:321:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "npm-hippocratic",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
