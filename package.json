@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tdreyno/pii": "^1.4.0"
+    "scrivano": "^0.1.0"
   }
 }
